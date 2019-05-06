@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DatesListSample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scrollTofirst"><![CDATA[<]]></string>
+    <string name="smoothScrollToFirst"><![CDATA[<<]]></string>
+    <string name="ScrollToLast"><![CDATA[>>]]></string>
+    <string name="smoothScrollToLast"><![CDATA[>]]></string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/resultsBTN"
+        />
+
+    <TextView
+        android:id="@+id/resultsBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:text="Results"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:paddingEnd="7dp"
+        android:paddingStart="7dp"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:minHeight="70dp"
+        android:layout_marginTop="16dp"
+        android:background="#E4E4E4"
+        >
+
+        <Button
+            android:id="@+id/scrollToFirstOneBTN"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollTofirst"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/scrollToFirstTwoBTN"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/smoothScrollToFirst"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/restartActivityBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            />
+
+        <Button
+            android:id="@+id/scrollToCurrentBTN"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="O"
+            />
+
+        <Button
+            android:id="@+id/optionsBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Options"
+            />
+
+        <Button
+            android:id="@+id/scrollToLastOneBTN"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ScrollToLast"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/scrollToLastTwoBTN"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/smoothScrollToLast"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
